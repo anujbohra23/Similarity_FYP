@@ -1,0 +1,23 @@
+# Ignore environment files
+Audio/.env
+Audio/myaudioenv/
+Audio/MarathiLORA_test/
+Audio/whisper-marathi-small/
+
+
+#Large Audio Files
+Audio/audioFiles/NK-EP-04.wav
+Audio/audioFiles/NK-EP-04.mp4
+
+# Model files
+Image/code/YOLO/best.pt
+Image/code/YOLO/init.pt
+Image/code/YOLO/last.pt
+
+# Iyolov7 folder
+Image/code/yolov7/
+
+#Pycache
+Audio/__pycache__/
+Audio/__pycache__/whisper.cpython-311.pyc
+*.pyc
