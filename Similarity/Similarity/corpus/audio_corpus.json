@@ -1,0 +1,10 @@
+[
+  {
+    "file": "example1.mp3",
+    "embedding": [0.1, 0.2, 0.3, 0.4]
+  },
+  {
+    "file": "example2.mp3",
+    "embedding": [0.5, 0.6, 0.7, 0.8]
+  }
+]

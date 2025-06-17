@@ -1,0 +1,20 @@
+fastapi
+uvicorn
+torch
+transformers
+sentence-transformers
+pillow
+pillow-avif-plugin
+scikit-learn
+jinja2
+# === Optional: for file watching and reload ===
+watchfiles==0.21.0  # aligns with uvicorn's reload
+
+# === Optional: logging enhancements ===
+loguru==0.7.2
+pydub==0.25.1
+torchaudio==2.3.0
+sentencepiece==0.2.0  # for multilingual tokenization
+# === Optional: TensorFlow if used by your pipeline ===
+# If you are not explicitly using TensorFlow, comment this out.
+tensorflow==2.16.1

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pairwise Similarity Service</title>
+  </head>
+  <body>
+    <h1>Pairwise Similarity</h1>
+
+    <h2>Audio Similarity</h2>
+    <form id="audioForm" enctype="multipart/form-data">
+      <input type="file" name="file1" accept="audio/*" />
+      <input type="file" name="file2" accept="audio/*" />
+      <button type="submit">Compare Audio</button>
+    </form>
+    <pre id="audioResult"></pre>
+
+    <h2>Image Similarity</h2>
+    <form id="imageForm" enctype="multipart/form-data">
+      <input type="file" name="file1" accept="image/*" />
+      <input type="file" name="file2" accept="image/*" />
+      <button type="submit">Compare Images</button>
+    </form>
+    <pre id="imageResult"></pre>
+
+    <script>
+      const audioForm = document.getElementById("audioForm");
+      audioForm.onsubmit = async (e) => {
+        e.preventDefault();
+        const formData = new FormData(audioForm);
+        const res = await fetch("/audio/similarity", {
+          method: "POST",
+          body: formData,
+        });
+        const data = await res.json();
+        document.getElementById("audioResult").textContent = JSON.stringify(
+          data,
+          null,
+          2
+        );
+      };
+
+      const imageForm = document.getElementById("imageForm");
+      imageForm.onsubmit = async (e) => {
+        e.preventDefault();
+        const formData = new FormData(imageForm);
+        const res = await fetch("/image/similarity", {
+          method: "POST",
+          body: formData,
+        });
+        const data = await res.json();
+        document.getElementById("imageResult").textContent = JSON.stringify(
+          data,
+          null,
+          2
+        );
+      };
+    </script>
+  </body>
+</html>
