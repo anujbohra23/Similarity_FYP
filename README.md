@@ -9,27 +9,27 @@ It enables **content-based similarity detection**, which can be leveraged for **
 
 ### **Workflow Breakdown**
 
-1. ** Video and Frame Extraction**
+1. Video and Frame Extraction
 
    * Frames are extracted from videos using **OpenCV** at defined intervals or scene boundaries.
    * This step isolates key visuals for downstream processing.
 
-2. ** Text Generation**
+2. Text Generation
 
    * Extracted frames are passed through **BLIP** (Bootstrapping Language-Image Pretraining), an image captioning model, to generate descriptive textual representations.
    * This converts visual content into natural language for semantic comparison.
 
-3. ** Embedding Generation**
+3. Embedding Generation
 
    * Captions are embedded using a **sentence-transformer model** (e.g., BERT).
    * Each caption is transformed into a dense numerical vector encoding semantic meaning.
 
-4. ** Similarity Score**
+4. Similarity Score
 
    * **Cosine similarity** is computed between the two embedding vectors.
    * The output score (range 0–1) quantifies how contextually similar the two inputs are.
 
-5. ** Audio Pipeline**
+5. Audio Pipeline
 
    * An **Automatic Speech Recognition (ASR)** model generates transcripts from audio inputs.
    * A **fine-tuned Whisper model** optimized for Indian native languages is used to improve transcription accuracy (WER).
