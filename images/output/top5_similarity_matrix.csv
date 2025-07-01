@@ -1,0 +1,5 @@
+Query Image,Top1 Image,Top1 Score,Top2 Image,Top2 Score,Top3 Image,Top3 Score,Top4 Image,Top4 Score,Top5 Image,Top5 Score
+dog_6.jpg,dog_5.jpg,1.0,mountains_1.jpg,0.353,desserts_4.jpg,0.3334,mountains_2.jpg,0.3332,dog_4.jpg,0.1875
+desserts_3.jpg,desserts_2.jpg,0.6199,aquatic_1.jpg,0.422,aquatic_4.jpg,0.3801,desserts_1.jpg,0.2505,desserts_4.jpg,0.2492
+mountains_1.jpg,mountains_2.jpg,0.5979,dog_6.jpg,0.353,dog_5.jpg,0.353,cat_1.jpg,0.329,cat_4.jpg,0.2993
+aquatic_4.jpg,aquatic_1.jpg,0.4329,desserts_3.jpg,0.3801,mountains_1.jpg,0.2259,cat_2.jpg,0.2154,dog_4.jpg,0.2106

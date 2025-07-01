@@ -1,0 +1,98 @@
+{
+    "dog_6.jpg": {
+        "top_similar_images": [
+            [
+                "dog_5.jpg",
+                1.0
+            ],
+            [
+                "mountains_1.jpg",
+                0.353
+            ],
+            [
+                "desserts_4.jpg",
+                0.3334
+            ],
+            [
+                "mountains_2.jpg",
+                0.3332
+            ],
+            [
+                "dog_4.jpg",
+                0.1875
+            ]
+        ]
+    },
+    "desserts_3.jpg": {
+        "top_similar_images": [
+            [
+                "desserts_2.jpg",
+                0.6199
+            ],
+            [
+                "aquatic_1.jpg",
+                0.422
+            ],
+            [
+                "aquatic_4.jpg",
+                0.3801
+            ],
+            [
+                "desserts_1.jpg",
+                0.2505
+            ],
+            [
+                "desserts_4.jpg",
+                0.2492
+            ]
+        ]
+    },
+    "mountains_1.jpg": {
+        "top_similar_images": [
+            [
+                "mountains_2.jpg",
+                0.5979
+            ],
+            [
+                "dog_6.jpg",
+                0.353
+            ],
+            [
+                "dog_5.jpg",
+                0.353
+            ],
+            [
+                "cat_1.jpg",
+                0.329
+            ],
+            [
+                "cat_4.jpg",
+                0.2993
+            ]
+        ]
+    },
+    "aquatic_4.jpg": {
+        "top_similar_images": [
+            [
+                "aquatic_1.jpg",
+                0.4329
+            ],
+            [
+                "desserts_3.jpg",
+                0.3801
+            ],
+            [
+                "mountains_1.jpg",
+                0.2259
+            ],
+            [
+                "cat_2.jpg",
+                0.2154
+            ],
+            [
+                "dog_4.jpg",
+                0.2106
+            ]
+        ]
+    }
+}
